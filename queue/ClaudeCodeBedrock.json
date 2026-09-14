@@ -6,7 +6,8 @@
       "Effect": "Allow",
       "Action": [
         "bedrock:InvokeModel",
-        "bedrock:InvokeModelWithResponseStream"
+        "bedrock:InvokeModelWithResponseStream",
+        "bedrock:CountTokens"
       ],
       "Resource": [
         "arn:aws:bedrock:*::foundation-model/anthropic.*",
